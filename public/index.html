@@ -1,14 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="foodApp">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Title</title>
-	<link rel="stylesheet" href="./reset.css">
+	<title>Food Storage</title>
 	<link rel="stylesheet" href="./styles.css">
+	<link rel="stylesheet" href="../public/views/home.css">
 </head>
 <body>
 
-<script type="text/javascript" src=""></script>
+<nav class="nav nav-text">
+	<div ui-sref="home" class="nav-item">Home</div>
+	<div ui-sref="add" class="nav-item">Add Product</div>
+	<div ui-sref="catalog" class="nav-item">Catalog</div>
+	
+</nav>
+Hello World
+
+<ui-view></ui-view>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.js"></script>
+<script src="../public/app.js"></script>
+<script src="../public/views/homeCtrl.js"></script>
 </body>
 </html>

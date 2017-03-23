@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+
+
 .nav {
 	display: flex;
 	flex-direction: row;
@@ -5,14 +8,22 @@
 	align-items: center;
 	width: 100%;
 	height: 60px;
-	background-color: black;
+	background-color: #E9E4CE;
+
 	}
 
 .nav-text {
-	color: aquamarine;
-	font-size: 22px;
+	color: #5db63b;
+	font-size: 25px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-family: 'Shadows Into Light', cursive;
 	}
 
 .nav-item {
 	width: auto;
+	}
+
+.nav-item:hover {
+	cursor: pointer;
 	}

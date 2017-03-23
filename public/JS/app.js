@@ -5,11 +5,24 @@ angular.module('foodApp', ['ui.router']).config(function($stateProvider, $urlRou
 	$stateProvider
 	.state('home', {
 		url: "/home",
-		templateUrl: "../public/views/home/home.html",
-		controller: "../public/views/home/homeCtrl"
+		templateUrl: "views/home/home.html",
+		controller: "homeCtrl"
+	})
+	.state('catalog', {
+		url: "/catalog",
+		templateUrl: "views/catalog/catalog.html",
+		controller: "catalogCtrl"
+	})
+	.state('expiration', {
+		url: "/expiration",
+		templateUrl: "views/expiration/expiration.html",
+		controller: "expirationCtrl"
+	})
+	.state('meals', {
+		url: "/meals",
+		templateUrl: "views/meals/meals.html",
+		controller: "mealsCtrl"
 	})
 
-	
-	
 	
 });

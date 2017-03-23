@@ -4,7 +4,7 @@ angular.module('foodApp', ['ui.router']).config(function($stateProvider, $urlRou
 	
 	$stateProvider
 	.state('home', {
-		url: "/home",
+		url: "/",
 		templateUrl: "views/home/home.html",
 		controller: "homeCtrl"
 	})

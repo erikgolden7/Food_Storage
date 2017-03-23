@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
-
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 .nav {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	width: 100%;
-	height: 180px;
+	height: 200px;
 	background-color: white;
 	}
 
@@ -15,25 +15,27 @@
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-around;
-	width: 55%;
-	height: 180px;
+	width: 50%;
+	height: 200px;
 	background-color: white;
 	}
 
 .nav-text {
-	color: #5db63b;
-	font-size: 25px;
+	color: #535353;
+	font-size: 20px;
 	font-weight: bold;
 	letter-spacing: 2px;
-	font-family: 'Shadows Into Light', cursive;
+	font-family: 'Montserrat', sans-serif;
 	}
 
 .nav-item {
 	width: auto;
+	cursor: pointer;
+	transition: color 0.5s ease;
 	}
 
 .nav-item:hover {
-	cursor: pointer;
+	color: #6dca3e;
 	}
 
 /*Center logo on nav-bar*/
@@ -42,4 +44,5 @@
 	background-size: contain;
 	width: 200px;
 	height: 160px;
+	cursor: pointer;
 	}

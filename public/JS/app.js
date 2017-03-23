@@ -3,11 +3,12 @@ angular.module('foodApp', ['ui.router']).config(function($stateProvider, $urlRou
 	$urlRouterProvider.otherwise('/');
 	
 	$stateProvider
-	.state('/', {
-		url: "home",
-		templateUrl: "public/views/home.html",
-		controller: "public/views/homeCtrl"
+	.state('home', {
+		url: "/home",
+		templateUrl: "../public/views/home/home.html",
+		controller: "../public/views/home/homeCtrl"
 	})
+
 	
 	
 	

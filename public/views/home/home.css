@@ -1,0 +1,7 @@
+.home-background {
+	background: url('https://static.pexels.com/photos/1398/food-vegetables-meal-kitchen.jpg') center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	}

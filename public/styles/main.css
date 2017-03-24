@@ -15,14 +15,14 @@
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-around;
-	width: 50%;
+	width: 45%;
 	height: 200px;
 	background-color: white;
 	}
 
 .nav-text {
 	color: #535353;
-	font-size: 20px;
+	font-size: 17px;
 	font-weight: bold;
 	letter-spacing: 2px;
 	font-family: 'Montserrat', sans-serif;
@@ -42,7 +42,22 @@
 .logo {
 	background: url('../src/logo.png') center no-repeat;
 	background-size: contain;
-	width: 200px;
-	height: 160px;
+	width: 190px;
+	height: 130px;
+	margin: 0 30px;
 	cursor: pointer;
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

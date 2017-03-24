@@ -4,3 +4,10 @@
 	width: 100%;
 	height: 100vh;
 	}
+
+.overlay {
+	background: url('http://fc09.deviantart.net/fs71/f/2011/074/3/7/dotted_overlay_texture_by_nobren-d3bqt3w.png') center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	}

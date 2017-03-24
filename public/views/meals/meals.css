@@ -1,6 +1,34 @@
 .meals-background {
-	background: url('https://static.pexels.com/photos/6596/food-healthy-coffee-cup.jpg') center no-repeat;
+	background: url('https://static.pexels.com/photos/253580/pexels-photo-253580.jpeg') center no-repeat;
 	background-size: cover;
 	width: 100%;
-	height: 100vh;
+	height: 160vh;
+	position: fixed;
+	top: 0px;
+	left:0;
+	z-index: -1;
+	}
+
+.mesh-box {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	background: url('http://cft90.nazwa.pl/wp-content/uploads/revslider/home/line-pattern.png') center;
+	border: solid #373737 1px;
+	}
+
+.info-box {
+	position: relative;
+	width: 100%;
+	height: 700px;
+	/*background: url('https://i.stack.imgur.com/hqR7r.png');*/
+	background-color: white;
+	}
+
+.title-text {
+	font-size: 36px;
+	text-align: center;
+	padding-top: 30px;
+	font-weight: bold;
+	color: #4b4b4b;
 	}

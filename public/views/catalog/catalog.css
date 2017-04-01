@@ -1,5 +1,6 @@
 .catalog-background {
 	background: url('https://upload.wikimedia.org/wikipedia/commons/1/10/Brno_Underground_-_Cabbage_Square_-_A_food_storage.JPG') center no-repeat;
+	border-top: solid #4b4b4b 1px;
 	background-size: cover;
 	width: 100%;
 	height: 100vh;

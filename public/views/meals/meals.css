@@ -20,7 +20,7 @@
 .info-box {
 	position: relative;
 	width: 100%;
-	height: 700px;
+	height: 800px;
 	/*background: url('https://i.stack.imgur.com/hqR7r.png');*/
 	background-color: white;
 	}
@@ -31,4 +31,27 @@
 	padding-top: 30px;
 	font-weight: bold;
 	color: #4b4b4b;
+	}
+
+.week {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	height: auto;
+	min-height: 600px;
+	}
+
+.day {
+	width: 13.5%;
+	height: 300px;
+	border: solid black 1px;
+	margin: 2% 0 2% 0;
+	}
+
+.day-title {
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	padding: 10px;
 	}

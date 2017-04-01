@@ -23,6 +23,17 @@ angular.module('foodApp', ['ui.router']).config(function($stateProvider, $urlRou
 		templateUrl: "views/meals/meals.html",
 		controller: "mealsCtrl"
 	})
-
+	.state('day', {
+		url: "/day",
+		templateUrl: "views/meals/day_view/day_view.html"
+	})
+	.state('week', {
+		url: "/week",
+		templateUrl: "views/meals/week_view/week_view.html"
+	})
+	.state('month', {
+		url: "/month",
+		templateUrl: "views/meals/month_view/month_view.html"
+	})
 	
 });

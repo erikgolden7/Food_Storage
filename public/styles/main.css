@@ -16,15 +16,16 @@
 	align-items: center;
 	justify-content: space-around;
 	height: 200px;
-	width: 675px;
+	width: 750px;
 	}
 
 .bar-left {
-	width: 175px;
+	width: 250px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
+	padding-left: 68px;
 	}
 
 .bar-right {

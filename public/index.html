@@ -15,11 +15,17 @@
 <body>
 <nav class="nav">
 	<div class="nav-bar nav-text">
-		<div ui-sref="home" class="nav-item">Home</div>|
-		<div ui-sref="meals" class="nav-item">Meals</div>
-		<div ui-sref="home" class="logo"></div>
-		<div ui-sref="catalog" class="nav-item">Catalog</div>|
-		<div ui-sref="expiration" class="nav-item">Expirations</div>
+		<div class="bar-left">
+			<div ui-sref="home" class="nav-item">Home</div>|
+			<div ui-sref="meals" class="nav-item">Meals</div>
+		</div>
+		<div class="bar-center">
+			<div ui-sref="home" class="logo"></div>
+		</div>
+		<div class="bar-right">
+			<div ui-sref="catalog" class="nav-item">Catalog</div>|
+			<div ui-sref="expiration" class="nav-item">Expirations</div>
+		</div>
 	</div>
 </nav>
 
@@ -28,6 +34,7 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.js"></script>
+
 <script src="JS/app.js"></script>
 <script src="views/home/homeCtrl.js"></script>
 <script src="views/catalog/catalogCtrl.js"></script>

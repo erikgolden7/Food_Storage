@@ -26,11 +26,20 @@
 	}
 
 .title-text {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 	font-size: 36px;
 	text-align: center;
-	padding-top: 30px;
 	font-weight: bold;
 	color: #4b4b4b;
+	padding: 27px 0px;
+	}
+
+.cal-min {
+	height: 38vh;
+	width: 100%;
+	background-color: white;
 	}
 
 .week {
@@ -43,9 +52,10 @@
 
 .day {
 	width: 13.5%;
-	height: 300px;
 	border: solid black 1px;
 	margin: 0.5% 0 2% 0;
+	height: auto;
+	min-height: 240px;
 	}
 
 .day-title {
@@ -56,9 +66,9 @@
 	}
 
 .cal-view {
-	display: flex;
-	flex-direction: row;
-	margin-left: 0.5%;
+	display: inline-flex;
+	/*flex-direction: row;*/
+	margin-left: 10px;
 	}
 
 .cal-item {
@@ -82,4 +92,13 @@
 
 	/*background: color-dark;*/
 	box-shadow: 0 2px 3px gray;
+	}
+
+.title {
+	display: inline-block;
+	}
+
+.cal-btns {
+	position: absolute;
+	left: 0;
 	}

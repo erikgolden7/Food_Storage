@@ -25,24 +25,13 @@
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
-	/*background-color: pink;*/
 	}
-
-/*.bar-center {*/
-	/*width: 250px;*/
-	/*display: flex;*/
-/*justify-content: center;*/
-	/*align-items: center;*/
-	/*background-color: mediumpurple;*/
-	/*}*/
 
 .bar-right {
 	width: 250px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	/*background-color: dodgerblue;*/
-
 	}
 
 .nav-text {
